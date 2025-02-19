@@ -9,10 +9,10 @@ public class ControllerCliente {
 
     BancoCliente bcCliente = new BancoCliente();
 
-    public void inserirNoBanco(Cliente c) {
+    public void criarCliente(Cliente c) {
         bcCliente.insert(c);
     }
-    public List<Cliente> pegarTodosOsclientes(){
+    public List<Cliente> pegarTodosClientes(){
         return bcCliente.findAll();
     }
     public boolean atualizarCliente(Cliente c) {
