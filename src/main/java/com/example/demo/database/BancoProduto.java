@@ -5,7 +5,7 @@ import com.example.demo.model.Produto;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Banco {
+public class BancoProduto {
     private List<Produto> produtos;
 
     public BancoProduto() {
