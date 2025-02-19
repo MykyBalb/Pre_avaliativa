@@ -1,9 +1,8 @@
 package com.example.demo.model;
 
-import lombok.Getter;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+
 
 public class Venda {
     int idVenda;
@@ -11,7 +10,7 @@ public class Venda {
     ArrayList<Produto> produtos = new ArrayList<Produto>();
     Cliente cliente;
 
-    public Venda(){
+    public Venda() {
     }
 
     public Venda(int idVenda, LocalDateTime dataVenda, ArrayList<Produto> produtos, Cliente cliente) {
