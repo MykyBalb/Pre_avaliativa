@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 
-public class Cliente {
+public class Cliente extends Venda{
 
     int idCliente;
 
