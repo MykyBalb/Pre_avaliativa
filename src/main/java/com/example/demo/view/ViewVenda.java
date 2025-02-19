@@ -12,7 +12,7 @@ public class ViewVenda {
 
     @GetMapping("/venda")
     public List<Venda> getAllVendas() {
-        return cv.pegarTodasVendas();
+        return cv.pegarTodosVenda();
     }
 
     @PostMapping("/venda")

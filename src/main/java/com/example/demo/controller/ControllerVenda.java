@@ -1,7 +1,9 @@
 package com.example.demo.controller;
 
+import com.example.demo.database.BancoVenda;
 import com.example.demo.model.Cliente;
 import com.example.demo.model.Venda;
+
 
 import java.util.List;
 
@@ -12,7 +14,7 @@ public class ControllerVenda {
         bcVenda.insert(v);
     }
 
-    public List<Cliente> pegarTodosClientes() {
+    public List<Venda> pegarTodosVenda() {
         return bcVenda.findAll();
     }
 
